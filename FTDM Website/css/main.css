@@ -1,0 +1,179 @@
+/* === Media Queries === */
+
+@media (max-width: 768px){
+	#bo-body .navbar-header {
+		background-color: #333333;
+	}
+}
+
+/* === Navigation Bar === */
+#bo-body #navigation {
+	margin:0;
+	padding:0;
+	border:0;	
+}
+
+#bo-body #nav-list {
+	padding-top: 30px;
+}
+
+#bo-body #nav-search {
+	padding-top: 30px;
+}
+
+/* === Main Page Body === */
+#bo-body #banner {
+	background-color: #ff9933; 
+	opacity: 0.95;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+#bo-body #latest {
+	background-color: #333333;
+	opacity: 0.75;
+}
+
+#bo-body #latest-vidbox {
+	background-color: #FFCC66;
+}
+#latest-vidbox h2 {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+#latest-vidbox .videowrap-outer {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#latest-vidbox .videowrap-inner {
+	float: none;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding-bottom: 50%;
+	padding-top: 25px;
+	height: 0;
+}
+
+#latest-vidbox .videowrap-inner iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#bo-body #title {
+	font-size: large;
+	font-weight: bold;
+}
+
+#bo-body #description {
+	font-size: 100%;
+	text-align: left;
+}
+
+/* === About Page Body === */
+#bo-body #family-picture {
+	background-color: #FF9933;
+	position: center;
+}
+
+#bo-body #my-goal {
+	padding: 20px 0 20px 0;
+	background-color: #FFCC33;
+	opacity: 0.75;
+}
+
+#bo-body #my-goal h2 {
+	color: #fff;
+	opacity: 1;
+	font-family: 'Raleway', sans-serif;
+}
+
+#bo-body #bio {
+	background-color: #666699;
+	color: #fff;
+	text-align: left;
+	padding: 30px 20px 30px 20px;
+}
+
+#bo-body #show-bio {
+	text-align: left;
+	font-size: medium;
+	margin: 20px 0 20px 0;
+}
+
+/* === Prayer Page Body === */
+#bo-body #philippians {
+	background-color: #FF9933;
+	color: #fff;
+	padding: 90px 0 85px 0;
+}
+
+#bo-body #philippians-text {
+	font-size: 26px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#bo-body #prayer-requests {
+	background-color: #FFCC33;
+	opacity: 0.75;
+	padding: 10px 0 20px 0;
+}
+
+#bo-body #prayer-requests-text {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+#bo-body #name-label {
+	padding-top: 10px;
+}
+#bo-body #why-pray {
+	background-color: #666699;
+	padding-bottom: 50px;
+}
+
+#bo-body #why-pray h2 {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+#bo-body #request-box {
+	padding-top: 30px;
+}
+/* === Footer === */
+#bo-footer #footer-container {
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	position:relative; 
+	bottom:0;
+	background-color:#333333;
+}
+.social-fb {
+	background-color: #fff;
+	border-radius: 50% 8px 10px 50%;
+	color: #385998;
+	font-size: 40px;
+	height: 32px;
+	line-height: 30px;width: 32px;
+	margin:5px;
+}
+
+.social-yt {
+	background-color: #fff;
+	border-radius: 50% 8px 10px 50%;
+	color:#d34836;
+	font-size: 40px;
+	height: 32px;
+	line-height: 30px;width: 32px;
+	margin:5px;
+}
+
+#footer-main h3 {
+	color:#fff;
+}
